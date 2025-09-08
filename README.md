@@ -55,7 +55,7 @@ which enables basic typesetting when viewed while still being a plaintext format
 editing and version control.
 
 Below is a blank checkbox:
-- [X] Put an X in the [ ] (with no spaces) to mark this as done!
+- [ ] Put an X in the [ ] (with no spaces) to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -74,7 +74,7 @@ Formally as a coding task, let `i` be an integer greater than zero and output th
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [X] Try a short game of Fizz Buzz with your team now.
+- [ ] Try a short game of Fizz Buzz with your team now.
 
 ---
 
@@ -133,7 +133,7 @@ class FizzBuzz {
 }
 ```
 
-- [X] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
+- [ ] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -177,7 +177,7 @@ method `main` in the file you choose to run.
 
 ### Task 1.1: Rewrite this using `while`
 
-- [X] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -195,7 +195,7 @@ test the calculation for several interesting numbers more easily.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [X] Rerun the program to verify that it still works.
+- [ ] Rerun the program to verify that it still works.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -208,7 +208,7 @@ That's your first big IntelliJ trick! There are lots more.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [X] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
+- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
   modified `FizzBuzz.java` (and possibly this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
@@ -229,7 +229,7 @@ a sequence of three git commands:
    will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
-- [X] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
 - [ ] repeat the above steps for `README.md` (or try using the approach below).
 
@@ -258,33 +258,33 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [X] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [X] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
 autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
-- [X] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
+- [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
 appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
 inside `Main.java`, you would need to change the access modifier on the helper.
 It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [X] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [ ] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [X] Hover over the error; IntelliJ will suggest some fixes.
+- [ ] Hover over the error; IntelliJ will suggest some fixes.
 
-- [X] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [X] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
@@ -303,7 +303,7 @@ through readings and coding exercises over the next few weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [X] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
+- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
 for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
@@ -322,13 +322,13 @@ ways to help you resolve conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [X] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
 right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
 the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub, but your local copy doesn't know about the change yet.
 
-- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
