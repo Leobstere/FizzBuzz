@@ -30,4 +30,11 @@ class FizzBuzz {
         i++;
         return i;
     }
+
+    public static void main(){
+        int i = 1;
+        while (i <= 100){
+            i = doBuzz(i);
+        }
+    }
 }
