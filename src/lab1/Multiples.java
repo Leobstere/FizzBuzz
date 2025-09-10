@@ -14,5 +14,10 @@ public class Multiples {
         }
         return counter;
     }
+
+    public static int multiples(){
+        int n = 1000, a = 3, b = 5;
+        return multiples(n, a, b);
+    }
 }
 
